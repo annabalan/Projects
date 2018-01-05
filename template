@@ -2,12 +2,5 @@
 name = input("Recipe Name: ")
 ptime = input("Prep Time: ")
 ttime = input("Total Time: ")
+ingred = {}
 
-ing1 = input("Ingredients: ")
-
-ing2 = input("Ingredients: ")
-ing3 = input("Ingredients: ")
-ing4 = input("Ingredients: ")
-ing5 = input("Ingredients: ")
-ing6 = input("Ingredients: ")
-ing7 = input("Ingredients: ")
