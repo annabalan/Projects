@@ -3,4 +3,11 @@ name = input("Recipe Name: ")
 ptime = input("Prep Time: ")
 ttime = input("Total Time: ")
 ingred = {}
-
+choice = None
+while choice != 0:
+  if choice == 1:
+    entry = input("What is the ingredients name?: ")
+    instruc = input("\nWhat's the instructions?: ")
+    ingred[entry] = instruc
+    print("\n", entry, "has been added.")
+     
