@@ -1,5 +1,5 @@
 import os
-import recipe-template.py
+# import recipe-template.py
 
 print("\n\n\t\t\t'Welcome to Cookbook'\n")
 choice = None
