@@ -21,5 +21,5 @@ while choice != "0":
     ingred[entry] = instruc
     print("\n", entry, "has been added.")
   elif choice == 2:
-    print (name, ptime, ttime, ingred)
+    print (name,"\n", ptime, "\n", ttime, "n\", ingred)
   else: print("Invalid choice")
