@@ -1,6 +1,7 @@
 import os
-# import recipe-template.py
+# from os import recipe-template.py
 
+def menu():
 print("\n\n\t\t\t'Welcome to Cookbook'\n")
 choice = None
 while choice != "0":
@@ -22,3 +23,4 @@ while choice != "0":
         x = input("Enter Recipe Name: ")
     else:
         print("Invalid choice")
+
