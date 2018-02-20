@@ -14,12 +14,17 @@ while choice != "0":
         print("Good-bye.")
     elif choice == "1":
         name = input("Recipe Name: ")
+        course = input("Course: ")
+        Cuisne = input("Cuisne: ")
         ptime = input("Prep Time: ")
+        time = input("Cooke Time: ")
         ttime = input("Total Time: ")
-        entry = input("What is the ingredients name?: ")
-        instruc = input("/nWhat are the instructions?: ")
+        servings = input("Servings: ")
+        #create loop here
+        entry = input("Enter Ingredients: ")
+        instruc = input("List instructions: ")
         ingred[entry] = instruc
-        print("/n", entry, "has been added.")
+        print( entry, "has been added.")
     elif choice == 2:
         print(name, "/n", ptime, "/n", ttime, "/n", ingred)
     else:
