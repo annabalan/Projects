@@ -15,16 +15,16 @@ while choice != "0":
     elif choice == "1":
         name = input("Recipe Name: ")
         course = input("Course: ")
-        Cuisne = input("Cuisne: ")
+        cuisne = input("Cuisne: ")
         ptime = input("Prep Time: ")
         time = input("Cooke Time: ")
         ttime = input("Total Time: ")
         servings = input("Servings: ")
         #create loop here
-        entry = input("Enter Ingredients: ")
-        instruc = input("List instructions: ")
-        ingred[entry] = instruc
-        print( entry, "has been added.")
+            entry = input("Enter Ingredients: ")
+            instruc = input("List instructions: ")
+            ingred[entry] = instruc
+        print(entry, "has been added.")
     elif choice == 2:
         print(name, "/n", ptime, "/n", ttime, "/n", ingred)
     else:
