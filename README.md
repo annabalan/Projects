@@ -9,3 +9,8 @@ Create a program that will store the ingredients for a recipe.
     -list of ingredients:(item, quanitity and units)
  -The user should be able to retrieve the recipe and alter the number of servings. The program should output the recipe with revised quanities for requested number of servings.
 
+-import section
+    -import os
+-generic variable
+    -mypaths
+-class definition
