@@ -14,3 +14,6 @@ Create a program that will store the ingredients for a recipe.
 -generic variable
     -mypaths
 -class definition
+    -Ingredient: individual ingredient in each recipe.
+    -Recipe:
+    -Recipe Index:
