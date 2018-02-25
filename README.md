@@ -17,3 +17,14 @@ Create a program that will store the ingredients for a recipe.
     -Ingredient: individual ingredient in each recipe.
     -Recipe:
     -Recipe Index:
+
+-class:
+    -Ingredient:
+        -name = ""
+        -quantity = 0
+        -unit = ""
+
+def _init_(self):
+    self.name = ""
+    self.quantity = ""
+    self.unit = ""
