@@ -37,3 +37,9 @@ def class(recipe):
      recipe.cuisine = ""
      recipe.preptime = ""
      recipe.cooktime = ""
+
+def inputline(ingredient):
+    ingredient.name = input("Ingredient: ")
+    if len(self.name)>0:
+        ingredient.unit = input("Unit of measurement: ")
+        ingredient.quantity = input("Quantity required: ")
