@@ -43,3 +43,7 @@ def inputline(ingredient):
     if len(self.name)>0:
         ingredient.unit = input("Unit of measurement: ")
         ingredient.quantity = input("Quantity required: ")
+
+def combineline(ingredient):
+    return ingredient.name + "|" + ingredinet.quantity + ingredient.unit
+
