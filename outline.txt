@@ -25,25 +25,24 @@ Create a program that will store the ingredients for a recipe.
          -quantity = 0
          -unit = ""
 
-def class(ingredient):
-     ingredient.name = ""
-     ingredient.quantity = ""
-     ingredient.unit = ""
+def ingredientclass(self):
+     self.name = ""
+     self.quantity = ""
+     self.unit = ""
 
-def class(recipe):
-     recipe.name = ""
-     recipe.course = ""
-     recipe.servings = ""
-     recipe.cuisine = ""
-     recipe.preptime = ""
-     recipe.cooktime = ""
+def recipeclass(self):
+     self.name = ""
+     self.course = ""
+     self.servings = ""
+     self.cuisine = ""
+     self.preptime = ""
+     self.cooktime = ""
 
-def inputline(ingredient):
-    ingredient.name = input("Ingredient: ")
+def inputline(selft):
+    self.name = input("Ingredient: ")
     if len(self.name)>0:
-        ingredient.unit = input("Unit of measurement: ")
-        ingredient.quantity = input("Quantity required: ")
+        self.unit = input("Unit of measurement: ")
+        self.quantity = input("Quantity required: ")
 
-def combineline(ingredient):
-    return ingredient.name + "|" + ingredinet.quantity + ingredient.unit
-
+def combineline(self):
+    return self.name + "|" + self.quantity + self.unit
