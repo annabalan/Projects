@@ -21,11 +21,34 @@ while choice != "0":
         ttime = input("Total Time: ")
         servings = input("Servings: ")
         #create loop here
-            entry = input("Enter Ingredients: ")
-            instruc = input("List instructions: ")
-            ingred[entry] = instruc
+           # entry = input("Enter Ingredients: ")
+           # instruc = input("List instructions: ")
+           # ingred[entry] = instruc
         print(entry, "has been added.")
     elif choice == 2:
         print(name, "/n", ptime, "/n", ttime, "/n", ingred)
     else:
         print("Invalid choice")
+
+class ingredient:
+    def ingredientclass(self):
+        self.name = ""
+        self.quantity = ""
+        self.unit = ""
+    def inputline(self):
+        self.name = input("Ingredient: ")
+        if len(self.name)>0:
+            self.quantity = input("Quantity required: ")
+            self.unit = input("Unit of measurement: ")
+    def combineline(self):
+        return self.name + "|" + self.quantity + self.unit
+
+class recipe:
+    def recipeclass(self):
+        self.name = ""
+        self.course = ""
+        self.servings = ""
+        self.cuisine = ""
+        self.preptime = ""
+        self.cooktime = ""
+        self.ttime = ""
