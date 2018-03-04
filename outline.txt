@@ -33,8 +33,8 @@ class ingredient:
     def inputline(self):
     	self.name = input("Ingredient: ")
     	if len(self.name)>0:
-            self.unit = input("Unit of measurement: ")
             self.quantity = input("Quantity required: ")
+            self.unit = input("Unit of measurement: ")
 
     def combineline(self):
     	return self.name + "|" + self.quantity + self.unit
