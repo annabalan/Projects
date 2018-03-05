@@ -17,7 +17,7 @@ while choice != "0":
         course = input("Course: ")
         cuisne = input("Cuisne: ")
         ptime = input("Prep Time: ")
-        time = input("Cooke Time: ")
+        time = input("Cook Time: ")
         ttime = input("Total Time: ")
         servings = input("Servings: ")
         #create loop here
@@ -30,11 +30,11 @@ while choice != "0":
     else:
         print("Invalid choice")
 
-class ingredient:
-    def ingredientclass(self):
-        self.name = ""
-        self.quantity = ""
-        self.unit = ""
+class Ingredient():
+    def __init__(self, name, quantity, unit):
+        self.name = name
+        self.quantity = quantity
+        self.unit = unit
     def inputline(self):
         self.name = input("Ingredient: ")
         if len(self.name)>0:
@@ -44,7 +44,7 @@ class ingredient:
         return self.name + "|" + self.quantity + self.unit
 
 class recipe:
-    def recipeclass(self):
+    def recipes(self):
         self.name = ""
         self.course = ""
         self.servings = ""
