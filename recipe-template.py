@@ -43,12 +43,12 @@ class Ingredient():
     def combineline(self):
         return self.name + "|" + self.quantity + self.unit
 
-class recipe:
-    def recipes(self):
-        self.name = ""
-        self.course = ""
-        self.servings = ""
-        self.cuisine = ""
-        self.preptime = ""
-        self.cooktime = ""
-        self.ttime = ""
+class Recipe():
+    def __init__(self, name, course, servings, cuisine, preptime, cooktime, ttime)
+        self.name = name
+        self.course = course
+        self.servings = servings
+        self.cuisine = cuisine
+        self.preptime = preptime
+        self.cooktime = cooktime
+        self.ttime = ttime
