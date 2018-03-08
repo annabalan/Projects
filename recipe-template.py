@@ -35,7 +35,7 @@ class Ingredient():
         self.name = name
         self.quantity = quantity
         self.unit = unit
-    def inputline(self):
+    def inputline(self, name, quantity, unit):
         self.name = input("Ingredient: ")
         if len(self.name)>0:
             self.quantity = input("Quantity required: ")
