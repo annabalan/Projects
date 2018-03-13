@@ -22,6 +22,9 @@ class Ingredient():
          self.ttime = ttime
 
 class RecipeFile():
-    def __init__(self, filenmae, fileIndex):
+    def __init__(self, filename, fileIndex):
         self.filename = filename
         self.fileIndex = fileIndex
+
+    def openrecipefile(self, filename):
+        self.file = open(mypath + "/" + fileName, "r")
