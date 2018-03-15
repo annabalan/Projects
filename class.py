@@ -11,15 +11,15 @@ class Ingredient():
      def combineline(self):
          return self.name + "|" + self.quantity + self.unit
 
- class Recipe():
-     def __init__(self, name, course, servings, cuisine, preptime, cooktime, ttime):
-         self.name = name
-         self.course = course
-         self.servings = servings
-         self.cuisine = cuisine
-         self.preptime = preptime
-         self.cooktime = cooktime
-         self.ttime = ttime
+class Recipe():
+    def __init__(self, name, course, servings, cuisine, preptime, cooktime, ttime):
+        self.name = name
+        self.course = course
+        self.servings = servings
+        self.cuisine = cuisine
+        self.preptime = preptime
+        self.cooktime = cooktime
+        self.ttime = ttime
 
 class RecipeFile():
     def __init__(self, filename, fileIndex):
