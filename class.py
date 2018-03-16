@@ -27,4 +27,4 @@ class RecipeFile():
         self.fileIndex = fileIndex
 
     def openrecipefile(self, filename):
-        self.file = open(mypath + "/" + fileName, "r")
+        self.filename = open(mypath + "/" + filename, "r")

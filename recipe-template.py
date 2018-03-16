@@ -53,3 +53,11 @@ class Recipe():
         self.preptime = preptime
         self.cooktime = cooktime
         self.ttime = ttime
+
+class RecipeFile():
+    def __init__(self, filename, fileIndex):
+        self.filename = filename
+        self.fileIndex = fileIndex
+
+    def openrecipefile(self, filename):
+        self.filename= open(mypath + "/" + filename, "r")
