@@ -61,3 +61,5 @@ class RecipeFile():
 
     def openrecipefile(self, filename):
         self.filename= open(mypath + "/" + filename, "r")
+        
+menu()
